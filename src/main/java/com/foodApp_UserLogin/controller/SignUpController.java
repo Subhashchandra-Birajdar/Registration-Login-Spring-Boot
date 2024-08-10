@@ -16,7 +16,7 @@ public class SignUpController {
 
     @PostMapping("/signUp")
     public ResponseEntity<SignUp> createNewSignUpHandler(@RequestBody SignUp newSignUp) {
-
+                      // http://localhost:8080/api/signUp
         SignUp newSignedUp =signUpService.createNewSignUp(newSignUp);
         return new ResponseEntity<SignUp>(newSignedUp, HttpStatus.CREATED);
 

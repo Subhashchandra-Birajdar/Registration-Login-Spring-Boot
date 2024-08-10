@@ -13,11 +13,13 @@ public class LoginController {
     private LoginService loginService;
 
     @PostMapping("/login")
+    //http://localhost:8080/api/login
     public String loginHandler(@RequestBody LoginData loginData) {
         return loginService.logInAccount(loginData);
     }
 
     @PatchMapping("/logout")
+    // http://localhost:8080/api/logout/
     public String logOutFromAccount(@RequestParam String key)
     {
         return loginService.logOutFromAccount(key);

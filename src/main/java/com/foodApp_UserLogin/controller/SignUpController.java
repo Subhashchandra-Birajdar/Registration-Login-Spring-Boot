@@ -23,6 +23,7 @@ public class SignUpController {
     }
 
     @PutMapping("/updateSignUp")
+    // http://localhost:8080/api/updateSignUp/
     public ResponseEntity<SignUp> updateSignUpDetailsHandler(@RequestBody SignUp signUp, @RequestParam String key)
     {
         SignUp newUpdatedSignUp = signUpService.updateSignUpDetails(signUp,key);

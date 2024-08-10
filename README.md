@@ -15,26 +15,23 @@ Artifact - Registration - Login
 Name - Registration - Login
 Description - Spring Boot project for Registration and Login
 Package name - com.foodApp_UserLogin
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
 ```
 
 ## Required Dependency for Development
 ```Dependency
-# returns 'First dependency'
+# 'First dependency'
 1.Spring web
 
-# returns 'Second dependency'
+# 'Second dependency'
 2.spring data jpa
 
-# returns 'Third dependency'
+# 'Third dependency'
 3.lombok
 
-# returns 'Fourth dependency'
+# 'Fourth dependency'
 4.postgre SQL Driver/My SQL Driver
 
-# returns 'Fifth dependency'
+# 'Fifth dependency'
 5.spring boot DevTools
 ```
 
